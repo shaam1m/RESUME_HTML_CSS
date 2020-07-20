@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&display=swap');
+
+.body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+a{
+    color: #1c9c94;
+    text-decoration:none;
+}
+a:hover{
+    opacity: 0.5;
+}
+artical{
+    padding:0 26px ;
+}
+section{
+    margin: 26px;
+    padding: 26px;
+}
+header, main, footer{
+    margin: 0 auto;
+}
+header{
+    padding: 2em;
+    text-align: center;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: fixed;
+    color: aliceblue;
+}
+header section{
+    margin: 0 auto;
+    max-width: 640px;
+}
+header img{
+    margin-top: 20px;
+    border-radius: 50%;
+    max-width: 150px;
+}
+h1{
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-family:monospace;
+}
+h3{
+    text-transform:uppercase;
+    font-family:monospace;
+    text-align: center;
+}
+h3.h4{
+    font-weight: 600;
+}
+main{
+    max-width: 1140px;
+}
+main section:not(last-child){
+    border-bottom: 1px solid #ccc;
+    transition: 0.5s;
+}
+.fa{
+    border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 5px;
+line-height: 20px;
+  text-align: center;
+color:black;
+    background: white;
+    transition: 0.5s;
+}
+.social-icon a i {
+    line-height: 36px;
+}
+.fa:hover{
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+.shaamim-course, .shaamim-skills{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap;
+    flex-wrap: wrap;
+}
+.shaamim-course .course-title{
+    color: #000;
+    -ms-flex:0 0 33.3%;
+        flex:0 0 33.3%;
+    max-width: 33%;
+}
+
+.shaamim-course .shaamim-course-descrition{
+    -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+.shaamim-skills ul li{
+   list-style-type: none;
+}
+skills-icon{
+    line-height: 35px;
+}
+.skills-icon ul li {
+    font-size: 20px;
+    font-family: monospace;
+}
+.skills-icon ul li i {
+    line-height: 48px;
+}
+.Edu-Class, Expri-Title{
+    text-transform: capitalize;
+
+}
+.Edu-Class span, .Expri-Title span{
+    text-decoration: underline;
+    color: #889499;
+    font-size: 16px;
+}
+.class-descrition{
+    line-height: 35px;
+    font-size: 20px;
+
+}
+.jobs-description li{
+    list-style-type: none;
+}
+.jobs-description li:before{
+    content: "✔";
+    padding-right: 0.5em;
+    color: #509e98;
+}
+footer{
+    text-align: center;
+    background: aliceblue;
+    padding: 8px 8px;
+    max-width: 1073px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
